@@ -1,0 +1,9 @@
+# Install a matching PyTorch/torchvision CUDA build first for GPU training.
+torch>=2.4
+torchvision>=0.19
+numpy>=1.24
+Pillow>=10
+tqdm>=4.66
+scikit-image>=0.22
+# Only used for LPIPS training/evaluation, matching the upstream metric backend.
+pyiqa>=0.1.13
